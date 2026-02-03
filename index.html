@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+         <title>子育てＳＯＳカード</title>
+         <link rel="stylesheet" href="styles.css">  
+         <script src="script.js" defer></script> 
+         <link rel="stylesheet" href="responsive.css">
+         <link rel="manifest" href="manifest.json">
+         <link rel="apple-touch-icon" href="icons/icon-192.png">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        
+    </head>
+    <body>
+        <header>
+            <h1>子育てＳＯＳカード</h1>
+            
+        </header>
+        <main>
+            <!-- sos選択画面 -->
+            <div id="sos-select" class="card">
+                <h2 class="title-border">ＳＯＳを選ぶ</h2>
+            <div class="sos-buttons">
+                 <div class="fusen-2">
+                <button data-sos="話を聞いてほしい">話を聞いてほしい</button><br>
+                </div> 
+                 <div class="fusen-2">
+                <button data-sos="リフレッシュしたい">リフレッシュしたい</button><br>
+                 </div>
+                <div class="fusen-2">
+                <button data-sos="休みたい">休みたい</button><br>
+                 </div>
+                <div class="fusen-2">
+                <button data-sos="寝かしつけしてほしい">寝かしつけてほしい</button><br>
+                </div>
+                <div class="fusen-2">
+                <button data-sos="ミルクをあげてほしい">ミルクをあげてほしい</button><br>
+                </div>
+            </div>
+            </div>
+            <!-- sos表示画面-->
+             <div id="sos-display" class="card-hidden">
+                <div class="title-wrap">
+                <h2 class="title-border">ＳＯＳが届いています</h2>
+                </div>
+                <div class="balloon1-left">
+                <p id="sos-message"></p>
+                </div>
+                <div class="clear-area">
+                <button data-clear="true">クリア！</button>
+                </div>
+            </div>
+            <!-- 使い方表示画面-->
+            <div id="thank-you-message" class="card-hidden">
+                <div class="title-wrap">
+                <h2 class="title-border">サンキューカード</h2>
+                </div>
+            <div class="balloon1-right">
+                 <p class="thanks-text">ありがとう！助かりました</p>
+                 <img src="https://raw.githubusercontent.com/pikahika615-art/heart.sos/559ac102d3156984959e71b546b09c172c7b248e/%E3%83%8F%E3%83%BC%E3%83%88-removebg-preview.png" alt="" class="floating-heart">
+
+                 </div>
+            <div class="reset-area">
+                <button data-reset="true">最初に戻る</button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
