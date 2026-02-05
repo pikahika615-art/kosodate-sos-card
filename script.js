@@ -49,4 +49,3 @@ if (resetButton) {
         sosMessage.textContent = '';
     });
 }
-

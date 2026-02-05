@@ -1,24 +1,46 @@
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 22px;
+  }
 
-/*最近のiphone*/
+  button {
+    font-size: 18px;
+    padding: 14px 24px;
+  }
+
+ .title-border {
+    font-size: 18px;
+    padding: 50px 0 10px 0;
+  }
+ .title-border h2 {
+    display: inline-block;
+    padding-bottom: 6px;
+    }
+}
+
 @media screen and (max-width: 390px) {
-    header h1 {
-        font-size: 30px;
-    }
-    
 
-}
+  h1 {
+    font-size: 30px;
+  }
 
-/*iphone 標準*/
-@media screen and (max-width: 375px) {
-    header h1 {
-        font-size: 15px;
+  button {
+    font-size: 16px;
+    padding: 12px 20px;
+    min-height: 48px;
+  }
+
+  .title-border {
+    font-size: 25px;
+    padding: 40px 0 8px 0;
+    display: inline-block;
+   
+  }
+  p {
+    line-height: 1.6;
+  }
+  .title-border {
+    display: inline-block;
+    padding-top: 5px;
     }
-  
-}
-/*android 小*/
-@media screen and (max-width: 360px) {
-    header h1 {
-        font-size: 18px;
-    }
-  
 }

@@ -1,40 +1,35 @@
- 
+
             body {
                 font-family: Arial, sans-serif;
                 text-align: center;
                 margin: 0;
                 padding: 0;
                 background-color: #f9f9f9;
-                max-width: 400px;
+                overflow-x: hidden;
+                width: 100%;
             }
+
             header {
                 background-color: #9fb7c9;
                 color: #eef3f7;
                 padding: 6px 0;
                 box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-                margin: 0 auto;
-                margin-bottom: 20px;
-           }
+            }
 
             
             h1 {
                 margin: 0;
-                font-size: 28px;
             }
             .card {
                 background-color: rgb(244, 243, 242);
                 border: 1px solid #ddd;
                 border-radius: 5px;
                 box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-                margin: 50px auto;
+                margin: 20px auto;
                 padding: 20px;
-                width: 90%;
+                width: 80%;
                 max-width: 400px;
-                
             }
-
-                
-            
             .card-hidden {
                 display: none;
             }
@@ -71,7 +66,7 @@
             .fusen-2::before {
              position: absolute;
              bottom: 2px;
-             right: -20px;
+             right: -18px;
              z-index: -1;
              transform: rotate(5deg);
              width: 100%;
@@ -110,7 +105,7 @@
              padding: 0;
             }
            .clear-area {
-             margin-top: 50px;
+             margin-top: 20px;
              text-align: center;
             }
            /* ふわっと表示アニメーション */
@@ -125,13 +120,7 @@
             } 
             }
 
-            .sos-message {
-             font-size: 18px;
-             font-weight: bold;
-             color: #333;
-             margin-top: 50px;
-             margin-bottom: 20px;
-            }
+
             .balloon1-right {
              position: relative;
              display: inline-block;
@@ -161,9 +150,8 @@
              padding: 0;
             }
             .reset-area {
-             margin-top: 50px;
+             margin-top: 20px;
              text-align: center;
-             font-size: 30px;
             }
             .title-wrap {
              text-align: center;
@@ -189,6 +177,7 @@
              #fff 4px
              );
             }
+            
             .thanks-text {
              font-size: 22px;
              font-weight: bold;
@@ -228,10 +217,6 @@
              opacity: 0;
              transform: translate(-50%, -40px);
             }
-            }
-            
-             html, body {
-             overflow-x: hidden;
             }
             .fusen-2,
             .balloon1-left,
